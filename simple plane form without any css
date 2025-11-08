@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+<TITLE> FORM </TITLE>
+</HEAD>
+<BODY color="yellow">
+<FONT size="10" color ="purple"> SAMPLE FORM </FONT>
+<FORM action ="mailto:jaibirsim@gmail.com" method="Post">
+<P><LABEL for =" FIRST NAME"> FIRST NAME:</LABEL>
+<INPUT id ="Firstname" type="Text"><BR>
+<LABEL for =" LAST NAME"> LAST NAME:</LABEL>
+<INPUT id ="lastname" type="Text"><BR>
+<LABEL for =" EMAIL"> EMAIL:</LABEL>
+<INPUT id ="email" type="Text"><BR>
+MOBILE NO:<INPUT type="PASSWORD" name="PASSWORD" size ="10">
+<BR>
+<LABEL for ="AGE"> AGE:</LABEL>
+<INPUT id ="age" type="NUMBER"><BR>
+<LABEL for ="DOB"> DOB:</LABEL>
+<INPUT id ="dob" type="DATE"><BR>
+<INPUT type="RADIO" name ="GENDER" value ="MALE">
+MALE<BR></BR>
+<INPUT type="RADIO" name ="GENDER" value ="FEMALE">
+FEMALE<BR></BR>
+<LABEL for =" PHOTO"> PHOTO:</LABEL>
+<INPUT id ="photo" type="FILE"><BR>
+<P>SELECT STATE <P><BR><BR>
+<SELECT name="STATE">
+<OPTION selected ="ANDHRA PRADESH">
+<OPTION> ARUNACHAL PRADESH
+<OPTION> ASSAM
+<OPTION> BIHAR
+<OPTION> CHHATTISGARH
+<OPTION>GOA
+<OPTION>GUJARAT
+<OPTION>HARYANA
+<OPTION>HIMACHEL PRADESH
+<OPTION>JHARKHAND
+<OPTION>KARNATAKA
+<OPTION>KERALA
+<OPTION>MADHYA PRADESH
+<OPTION>MAHARASTRA
+<OPTION>MANIPUR
+<OPTION>MEGHALAYA
+<OPTION>MIZORAM
+<OPTION>NAGALAND
+<OPTION>ODISHA
+<OPTION>PUNJAB
+<OPTION>RAJASTHAN
+<OPTION>SIKKIM
+<OPTION>TAMIL NADU
+<OPTION>TELANGANA
+<OPTION>TRIPURA
+<OPTION>UTTARAKHAND
+<OPTION>UTTAR PRADESH
+<OPTION>WEST BENGAL
+</P>
+<BR>
+<INPUT type ="checkbox" name="check"> Set
+Google as my default homepage.<BR><BR>
+<INPUT value ="Send" type="Submit">
+<INPUT type= "Reset">
+</P>
+</FORM>
+</BODY>
+</HTML>
